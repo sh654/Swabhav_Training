@@ -1,0 +1,19 @@
+package com.techlabs.creational.Factory.model;
+
+public class SavingsAccount implements IAccount{
+
+	@Override
+	public double credit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double debit() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+}

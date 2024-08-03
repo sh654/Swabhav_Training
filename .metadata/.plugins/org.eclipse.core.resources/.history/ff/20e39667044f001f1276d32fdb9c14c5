@@ -1,0 +1,17 @@
+package com.techlabs.creational.Factory.model;
+
+public class CurrentAccount implements IAccount{
+
+	@Override
+	public double debit(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double credit(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

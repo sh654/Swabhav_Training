@@ -1,0 +1,12 @@
+package com.techlabs.behavioural.model;
+
+public class AppNotifier implements INotifier{
+
+	@Override
+	public void notify(Account accounts) {
+		// TODO Auto-generated method stub
+		System.out.println("App Notification to : "+accounts.getAccountNumber() + "Balance Debited"+ accounts.getBalance() +" Current Balance: "+accounts.getBalance());
+	}
+	
+
+}

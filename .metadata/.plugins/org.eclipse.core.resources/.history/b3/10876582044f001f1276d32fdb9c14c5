@@ -1,0 +1,23 @@
+package com.techlabs.creational.Factory.test;
+
+import com.techlabs.creational.Factory.model.AccountFactory;
+import com.techlabs.creational.Factory.model.IAccount;
+import com.techlabs.creational.Factory.model.AccountType;
+
+public class AccountTest {
+    public static void main(String[] args) {
+        // Create a Savings Account
+        IAccount savingsAccount = AccountFactory.createAccount(AccountType.SAVINGS);
+        savingsAccount.credit(1000);
+        System.out.println("Savings Account Balance after crediting 1000: " + savingsAccount.credit(0));
+        savingsAccount.debit(500);
+        System.out.println("Savings Account Balance after debiting 500: " + savingsAccount.credit(0));
+
+        // Create a Current Account
+        IAccount currentAccount = AccountFactory.createAccount(AccountType.CURRENT);
+        currentAccount.credit(2000);
+        System.out.println("Current Account Balance after crediting 2000: " + currentAccount.credit(0));
+        currentAccount.debit(1500);
+        System.out.println("Current Account Balance after debiting 1500: " + currentAccount.credit(0));
+    }
+}

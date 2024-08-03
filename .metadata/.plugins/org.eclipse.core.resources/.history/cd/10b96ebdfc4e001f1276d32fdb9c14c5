@@ -1,0 +1,5 @@
+package com.techlabs.creational.singelton.test;
+
+public class DBConnectionTest {
+
+}

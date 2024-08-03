@@ -1,0 +1,21 @@
+package com.techlabs.creational.singelton.test;
+
+import com.techlabs.creational.singelton.model.Login;
+
+public class LoginTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Login login1 = Login.getLogin();
+		login1.status();
+		System.out.println(login1.hashCode());
+		Login login2 =Login.getLogin();
+		login2.status();
+		System.out.println(login2.hashCode());
+		/* Singleton to restrict more than 1 object we need to do following
+			1> Make Constructor as private 
+		*/
+	}
+
+}

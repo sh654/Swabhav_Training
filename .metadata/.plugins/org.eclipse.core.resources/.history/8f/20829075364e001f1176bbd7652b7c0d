@@ -1,0 +1,14 @@
+package com.techlabs.ocp.solution;
+import com.techlabs.ocp.solution.IFestivalType;;
+
+public class Holi implements IFestivalType{
+	
+	
+	
+	@Override
+	public double calculateSimpleInterest() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

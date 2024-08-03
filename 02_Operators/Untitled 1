@@ -1,0 +1,53 @@
+
+Based on Number of operands Operators have 3 types:-
+1) Unary Operator :-
+	This require only 1 operand
+	example :- Increment Operator, Decrement, Logical NOT
+
+2) Binary Operator:- 
+	This require only 2 operand 
+	exampe :- arithmetic, relational, logical and, logical or
+	
+3) Ternary Operator:- 
+	this require only 3 operand
+	example :- Conditional Operator
+	
+	
+Example 
+1) Arithmetic :- 
+
+use for arithmetic operation ie +,-,*,/
+
+2) Relational :- 
+
+These operators are used to check for relations like equality, greater than, and less than. 
+They return boolean results 
+
+condition:- 
+a) == Equal to returns true if the left-hand side is equal to the right-hand side.
+b) != Not Equal to returns true if the left-hand side is not equal to the right-hand
+c) < less than: returns true if the left-hand side is less than the right-hand side.
+d) <= less than or equal to returns true if the left-hand side is less than or equal to the right-hand side.
+e) > Greater than: returns true if the left-hand side is greater than the right-hand side.
+f) >= Greater than or equal to returns true if the left-hand side is greater than or equal to the right-hand side.
+
+3) Logical Operators:- 
+
+These operators are used to perform “logical AND” and “logical OR” operations, i.e., a function similar to AND gate and OR gate in digital electronics. One thing to keep in mind is the second condition is not evaluated if the first one is false, i.e., it has a short-circuiting effect. Used extensively to test for several conditions for making a decision. Java also has “Logical NOT”, which returns true when the condition is false and vice-versa
+
+Conditional operators are:
+
+a)  && Logical AND: returns true when both conditions are true.
+b)  || Logical OR: returns true if at least one condition is true.
+c)  ! Logical NOT: returns true when a condition is false and vice-versa
+
+
+4) Bitwise Operators
+These operators are used to perform the manipulation of individual bits of a number. They can be used with any of the integer types. They are used when performing update and query operations of the Binary indexed trees. 
+
+& Bitwise AND operator: returns bit by bit AND of input values.
+| Bitwise OR operator: returns bit by bit OR of input values.
+^ Bitwise XOR operator: returns bit-by-bit XOR of input values.
+~ Bitwise Complement Operator: This is a unary operator which returns the one’s complement representation of the input value, i.e., with all bits inverted.
+
+5) 

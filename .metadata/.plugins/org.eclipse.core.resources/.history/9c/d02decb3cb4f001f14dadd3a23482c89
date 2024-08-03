@@ -1,0 +1,10 @@
+package com.techlabs.structural.adapter.model;
+
+public class Hat {
+
+	private String shortname;
+	private String longName;
+	private double baseprice;
+	private double tax;
+	
+}

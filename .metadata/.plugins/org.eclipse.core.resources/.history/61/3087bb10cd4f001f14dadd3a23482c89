@@ -1,0 +1,20 @@
+package com.techlabs.structural.adapter.model;
+
+public class Hat {
+
+	private String shortname;
+	private String longName;
+	private double baseprice;
+	private double tax;
+	
+	public Hat(String shortname, String longName, double baseprice, double tax) {
+		super();
+		this.shortname = "birla";
+		this.longName = "WallCare";
+		this.baseprice = 56;
+		this.tax = 8;
+	}
+	
+	
+	
+}

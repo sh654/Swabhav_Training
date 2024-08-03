@@ -1,0 +1,39 @@
+package com.techlabs.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class OperationsTest {
+
+	@Test
+	void testAddition() {
+//		fail("Not yet implemented");
+		Operations operation = new Operations();
+		int actual = operation.addition(5, 5);
+		int expected = 10;
+		assertEquals(expected, actual);
+		
+	}
+	
+	void testSubtraction() {
+		Operations operation = new Operations();
+		assertEquals(20, operation.subtraction(30, 10));
+	}
+	
+	void testMultiplication() {
+		Operations operation = new Operations();
+		assertEquals(45, operation.multiplication(9, 5));
+	}
+	
+	void testDivision() {
+		Operations operation = new Operations();
+		assertEquals(4, operation.division(8, 2));
+	}
+	
+	void testModulus() {
+		Operations operation = new Operations();
+		assertEquals(0, operation.modulus(4, 2));
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.techlabs.creational.Factory.test;
+
+public class IAccountTest {
+
+	
+	public static void main(String args[]) {
+		
+	}
+	
+}

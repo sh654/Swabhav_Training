@@ -1,0 +1,12 @@
+package com.techlabs.behavioural.model;
+
+public class SMSNotifiers implements INotifier {
+
+	@Override
+	public void notify(Account accounts, String message) {
+		// TODO Auto-generated method stub
+		System.out.println("SMS Notification to : "+accounts.get);
+	}
+
+
+}

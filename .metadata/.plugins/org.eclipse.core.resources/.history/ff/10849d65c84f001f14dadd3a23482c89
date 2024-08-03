@@ -1,0 +1,8 @@
+package com.techlabs.structural.facade.model;
+
+public class MovieFacade extends DvdPlayer, Projector, SoundSystem{
+
+	
+	
+	
+}

@@ -1,0 +1,25 @@
+package com.techlabs.creational.Factory.model;
+
+public class SavingsAccount implements IAccount{
+
+	@Override
+	public double debit(double amount) {
+		// TODO Auto-generated method stub
+		if(amount< 0)
+			System.out.println("Enter positive amount");
+			return 0;
+		if(amount > balance)
+			return -1;
+	}
+
+	@Override
+	public double credit(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+
+	
+	
+}

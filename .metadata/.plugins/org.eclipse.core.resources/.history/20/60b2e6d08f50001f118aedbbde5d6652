@@ -1,0 +1,10 @@
+package com.techlabs.behavioural.model;
+
+public interface INotifier {
+
+	void notify(Account);
+	
+	void SMSNotifier();
+	void EmailNotifier();
+	void WhatsappNotifier();
+}

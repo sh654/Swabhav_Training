@@ -1,0 +1,8 @@
+package com.techlabs.creational.Factory.model;
+
+public interface IAccount {
+
+	void credit();
+	void debit();
+	
+}

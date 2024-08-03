@@ -1,0 +1,23 @@
+package com.techlabs.behavioural.state.model;
+
+public class Shift implements IPacketState{
+
+	@Override
+	public void next(IPacketState Packet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void previous(IPacketState Packet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void current(IPacketState Packet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

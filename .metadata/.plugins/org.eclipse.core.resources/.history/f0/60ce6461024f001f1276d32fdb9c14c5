@@ -1,0 +1,9 @@
+package com.techlabs.creational.Factory.model;
+
+public class SavingsAccount implements IAccount{
+
+	
+
+	
+	
+}

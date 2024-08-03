@@ -1,0 +1,11 @@
+package com.techlabs.behavioural.state.model;
+
+public class Packet {
+
+	private IPacketState Packet;
+	
+	public void nextState(IPacketState Packet) {
+		this.nextState(Packet);
+	}
+	
+}

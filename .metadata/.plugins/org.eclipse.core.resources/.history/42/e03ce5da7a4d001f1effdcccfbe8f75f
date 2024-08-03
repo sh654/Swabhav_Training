@@ -1,0 +1,56 @@
+package com.techlabs.srp.model;
+
+public class Invoice {
+	
+	private String id;
+	private String description;
+	private double amount;
+	private double tax;
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public double getTax() {
+		return tax;
+	}
+	public void setTax(double tax) {
+		this.tax = tax;
+	}
+	public Invoice(String id, String description, double amount) {
+		super();
+		this.id = id;
+		this.description = description;
+		this.amount = amount;
+//		this.tax = tax;
+	}
+	
+	public void calculateTax(double percentage) {
+        if (percentage < 0) {
+            throw new IllegalArgumentException("Percentage cannot be negative.");
+        }
+        this.tax = (amount * percentage) / 100;
+    }
+
+    // Method to print details of the invoice
+    public void printDetails() {
+        System.out.println("Invoice ID: " + id);
+        System.out.println("Description: " + description);
+        System.out.println("Amount: $" + amount);
+        System.out.println("Tax: $" + tax);
+        System.out.println("Total Amount (including tax): $" + (amount + tax));
+    }
+}

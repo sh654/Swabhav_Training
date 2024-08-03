@@ -1,0 +1,5 @@
+package com.techlabs.ocp.model;
+
+public class Rectangle {
+
+}

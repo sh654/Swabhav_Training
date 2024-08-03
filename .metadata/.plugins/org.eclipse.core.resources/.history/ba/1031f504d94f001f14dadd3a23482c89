@@ -1,0 +1,14 @@
+package com.techlabs.decorator.test;
+
+import com.techlabs.decorator.model.ICarService;
+
+public class ICarServiceTest {
+
+	public static void main(String args[]) {
+		
+		ICarService basic = new CarInspection();
+		
+		
+		
+	}
+}

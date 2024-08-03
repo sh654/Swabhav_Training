@@ -1,0 +1,18 @@
+package com.techlabs.srp.test;
+
+import com.techlabs.srp.model.Invoice;
+
+public class InvoiceTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		Invoice invoice = new Invoice("12012", "health care", 12000);
+		invoice.calculateTax(15);
+		
+		invoice.printDetails();
+	}
+
+}

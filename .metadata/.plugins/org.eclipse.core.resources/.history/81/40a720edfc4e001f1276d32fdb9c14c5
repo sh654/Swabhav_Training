@@ -1,0 +1,13 @@
+package com.techlabs.creational.singelton.test;
+
+import com.techlabs.creational.singelton.model.DbConnection;
+
+public class DBConnectionTest {
+
+	public static void main(String args[]) {
+		
+		DbConnection dbconnect = DbConnection.getDbLogger();
+		
+	}
+	
+}

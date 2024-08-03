@@ -1,0 +1,13 @@
+package com.techlabs.behavioural.strategy.test;
+
+import com.techlabs.behavioural.strategy.model.AddOperation;
+import com.techlabs.behavioural.strategy.model.OperationStrategy;
+
+public class StrategyPatternDemo {
+
+	public static void main(String args[]) {
+		
+		OperationStrategy op = new OperationStrategy(new AddOperation())
+		op.dooperate(a, b);
+	}
+}

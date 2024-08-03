@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="OperationsTest" project="23-unittesing-app" tests="5" started="5" failures="0" errors="5" ignored="0">
+  <testsuite name="com.techlabs.model.OperationsTest" time="0.028" displayname="OperationsTest" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]">
+    <testcase name="testMultiplication" classname="com.techlabs.model.OperationsTest" time="0.018" displayname="testMultiplication()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]/[method:testMultiplication()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.techlabs.model.OperationsTest.testMultiplication(OperationsTest.java:30)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testAddition" classname="com.techlabs.model.OperationsTest" time="0.002" displayname="testAddition()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]/[method:testAddition()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.techlabs.model.OperationsTest.testAddition(OperationsTest.java:16)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testModulus" classname="com.techlabs.model.OperationsTest" time="0.002" displayname="testModulus()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]/[method:testModulus()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.techlabs.model.OperationsTest.testModulus(OperationsTest.java:38)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testDivision" classname="com.techlabs.model.OperationsTest" time="0.001" displayname="testDivision()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]/[method:testDivision()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.techlabs.model.OperationsTest.testDivision(OperationsTest.java:34)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="testSubtraction" classname="com.techlabs.model.OperationsTest" time="0.001" displayname="testSubtraction()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.OperationsTest]/[method:testSubtraction()]">
+      <error>java.lang.NullPointerException&#13;
+	at com.techlabs.model.OperationsTest.testSubtraction(OperationsTest.java:25)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:498)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+	at java.util.ArrayList.forEach(ArrayList.java:1257)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

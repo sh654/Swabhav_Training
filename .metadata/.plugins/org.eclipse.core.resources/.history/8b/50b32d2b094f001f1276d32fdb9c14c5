@@ -1,0 +1,10 @@
+package com.techlabs.creational.AbstractFactory.test;
+
+public class ICarsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
