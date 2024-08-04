@@ -2,19 +2,19 @@ package com.techlabs.model;
 
 public class Operations {
 
-	int addition(int number1, int number2) {
+	public int addition(int number1, int number2) {
 		return number1+number2;
 	}
 	
-	int subtraction(int number1, int number2) {
+	public int subtraction(int number1, int number2) {
 		return number1- number2;
 	}
 	
-	int multiplication(int number1, int number2) {
+	public int multiplication(int number1, int number2) {
 		return number1*number2;
 	}
 	
-	int division(int number1, int number2) {
+	public int division(int number1, int number2) {
 		if(number2 ==0)
 			throw new NullPointerException();
 		int result = number1/number2;
@@ -23,7 +23,7 @@ public class Operations {
 	}
 	
 	
-	int modulus(int number1, int number2) {
+	public int modulus(int number1, int number2) {
 		return number1 %number2;
 	}
 }

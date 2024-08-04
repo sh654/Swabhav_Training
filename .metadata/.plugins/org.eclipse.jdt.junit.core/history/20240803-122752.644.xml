@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AreaCalculatorTest (1)" project="23-unittesing-app" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.techlabs.model.AreaCalculatorTest" time="0.025" displayname="AreaCalculatorTest" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.AreaCalculatorTest]">
-    <testcase name="testCalculateAreaOfSquare" classname="com.techlabs.model.AreaCalculatorTest" time="0.013" displayname="testCalculateAreaOfSquare()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.AreaCalculatorTest]/[method:testCalculateAreaOfSquare()]"/>
-    <testcase name="testCalculateAreaOfRectangle" classname="com.techlabs.model.AreaCalculatorTest" time="0.006" displayname="testCalculateAreaOfRectangle()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.AreaCalculatorTest]/[method:testCalculateAreaOfRectangle()]"/>
-    <testcase name="testCalculateAreaOfCircle" classname="com.techlabs.model.AreaCalculatorTest" time="0.006" displayname="testCalculateAreaOfCircle()" uniqueid="[engine:junit-jupiter]/[class:com.techlabs.model.AreaCalculatorTest]/[method:testCalculateAreaOfCircle()]"/>
-  </testsuite>
-</testrun>

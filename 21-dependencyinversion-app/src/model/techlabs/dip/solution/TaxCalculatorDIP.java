@@ -5,9 +5,6 @@ import model.techlabs.dip.violation.DBLogger;
 public class TaxCalculatorDIP {
 		
 		private DBLogger dblogger;
-		public TaxCalculator(DBLogger dblogger) {
-			super();  
-			this.dblogger = dblogger;
 		
 	public int calculateTax(int amount, int rate) {  
 		int tax =0;
@@ -22,4 +19,4 @@ public class TaxCalculatorDIP {
 		
 	}
 
-}
+
