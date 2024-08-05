@@ -4,16 +4,15 @@ import java.util.Scanner;
 
 public class TicTacToeGame {
 
-    public static void main(String args[]) {
+//    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter number of rows and columns for the board: ");
+       
         int rows = scanner.nextInt();
         int columns = scanner.nextInt();
         char[][] board = new char[rows][columns];
 
-        createBoard(board, rows, columns);
-        gameBegin(board, scanner, rows, columns);
-    }
+       
+//    }
 
     private static void gameBegin(char[][] board, Scanner scanner, int rows, int columns) {
         boolean gameOver = false;

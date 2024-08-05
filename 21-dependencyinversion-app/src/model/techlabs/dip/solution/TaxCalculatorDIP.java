@@ -6,6 +6,7 @@ public class TaxCalculatorDIP {
 		
 		private DBLogger dblogger;
 		
+		
 	public int calculateTax(int amount, int rate) {  
 		int tax =0;
 		try {   
