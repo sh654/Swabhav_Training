@@ -1,8 +1,0 @@
-package com.techlabs.creational.Factory.model;
-
-public interface IAccount {
-
-	double credit(amount);
-	double debit(amount);
-	
-}

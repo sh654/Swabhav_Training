@@ -1,5 +1,0 @@
-package com.techlabs.ocp.solution;
-package com.techlabs.ocp.solution.IFestival;
-public class Holi implements IFestivalType{
-
-}

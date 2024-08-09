@@ -1,9 +1,0 @@
-package model.techlabs.dip.solution;
-
-public class DbLogger {
-	
-	public void lof(String err) {
-		System.out.println("Logged in Db: "+err);
-	}
-	
-}

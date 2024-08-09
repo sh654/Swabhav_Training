@@ -1,7 +1,0 @@
-package com.techlabs.creational.AbstractFactory.model;
-
-public interface Accountfactory {
-
-	com.techlabs.creational.Factory.model.IAccount makeAccounts();
-	
-}

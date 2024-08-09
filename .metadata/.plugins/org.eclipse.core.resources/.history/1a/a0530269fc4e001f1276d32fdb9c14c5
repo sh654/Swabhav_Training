@@ -1,5 +1,0 @@
-package com.techlabs.creational.singelton.model;
-
-public class DbConnection {
-
-}
