@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.techlabs.ocp.solution.Holi"/>
-<fullyQualifiedTypeName name="com.techlabs.ispViolation.Labour"/>
-<fullyQualifiedTypeName name="com.techlabs.ispViolation.Robot"/>
-<fullyQualifiedTypeName name="com.techlabs.model.ILunchInterval"/>
-<fullyQualifiedTypeName name="com.techlabs.model.IWorkable"/>
-<fullyQualifiedTypeName name="com.techlabs.model.IWorker"/>
-<fullyQualifiedTypeName name="com.techlabs.ispSolution.Labour"/>
 <fullyQualifiedTypeName name="com.techlabs.ispSolution.Robot"/>
 <fullyQualifiedTypeName name="model.techlabs.dip.violation.TaxCalculator"/>
 <fullyQualifiedTypeName name="model.techlabs.dip.violation.DBLogger"/>
@@ -55,9 +48,16 @@
 <fullyQualifiedTypeName name="com.techlabs.model.Student"/>
 <fullyQualifiedTypeName name="java.beans.Statement"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="com.techlabs.connection.ScmDbConnection"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.parser.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.techlabs.model.DbUtil"/>
 </qualifiedTypeNameHistroy>
